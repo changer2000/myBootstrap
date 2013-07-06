@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bootstrap 101 Template</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Bootstrap -->
+<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>	
+</head>
+<body>
+	<h1>Hello, world!</h1>
+	<div class="container" style="border-style:solid; border-width: 1px;">
+		<div class="row">
+			<div class="span6" style="border-style:solid; border-width: thin">test6</div>
+			<div class="span6" style="border-style:solid; border-width: thin">test6
+				<div class="row">
+					<div class="span2"><div style="border-style:solid; border-width: 100px">嵌套2</div></div>
+					<div class="span4"><div style="border-style:solid; border-width: 100px">嵌套4<br/>test hh</div></div>
+				</div>
+			</div>
+			<div class="span12" style="border-style:solid; border-width: thin">test12</div>
+		</div>
+		<button class="btn btn-large btn-primary" type="button">Large button</button>
+	</div>
+	<p class="lead">lead段落</p>
+	<p>普通段落</p>
+	<p class="lead"><small>small段落</small></p>
+	<pre class="pre-scrollable">
+注意：.pre-scrollable:带有一个滚动条
+&lt;p&gt;Sample text here...&lt;p&gt;
+	</pre>
+	<form>
+		<table class="table table-striped table-bordered table-hover table-condensed" style="width:300px;margin-left:10px;">
+			<tr class="error">
+				<td>test table 1</td>
+			</tr>
+			<tr>
+				<td>test table 2</td>
+			</tr>
+		</table>
+		<label for="inputEmail">Email</label>
+		<input type="text" id="inputEmail" placeholder="Email">
+		<br/>
+		<div class="input-prepend">
+			<span class="add-on">@</span>
+			<input class="span2" id="prependedInput" type="text" placeholder="Username">
+		</div>
+		<div class="input-append">
+			<input class="span2" id="appendedInput" type="text">
+			<span class="add-on">.00</span>
+		</div>
+		<br/>
+		<div class="input-append">
+			<input class="span2" id="appendedInputButtons" type="text">
+			<button class="btn" type="button">Search</button>
+			<button class="btn" type="button">Options</button>
+		</div>
+		<br/>
+		<div class="input-prepend input-append">
+			<div class="btn-group">
+				<button class="btn dropdown-toggle" data-toggle="dropdown" >Action<span class="caret"></span></button>
+				<ul class="dropdown-menu">
+					<li>
+						<a href="#">
+						  Action
+						</a>
+					</li>
+					<li>
+						<a href="#">
+						  Another Action
+						</a>
+					</li>
+					<li class="divider"></li>
+					<li>
+						test
+					</li>
+				</ul>
+			</div>
+			<input class="span2" id="appendedDropdownButton" type="text">
+			<div class="btn-group">
+				<button class="btn dropdown-toggle" data-toggle="dropdown" >Action<span class="caret"></span></button>
+				<ul class="dropdown-menu">
+					<li>
+						<a href="#">
+						  Action
+						</a>
+					</li>
+					<li>
+						<a href="#">
+						  Another Action
+						</a>
+					</li>
+					<li class="divider"></li>
+					<li>
+						test
+					</li>
+				</ul>
+			</div>
+		</div>
+		<br/>
+		<div class="input-prepend">
+			<div class="btn-group">
+				<button class="btn">Action</button>
+				<button class="btn dropdown-toggle" data-toggle="dropdown"><span class="caret"/></button>
+				<ul class="dropdown-menu">
+					<li><a href="#">Action</a></li>
+					<li><a href="#">Another Action</a></li>
+					<li class="divider"/>
+					<li> test </li>
+				</ul>
+			</div>
+			<input class="span2" id="appendedDropdownButton2" type="text">
+		</div>
+		<br/>
+		<div class="input-append">
+			<input type="text"/>
+			<button type="submit" class="btn">Test</button>
+		</div>
+		<span class="help-inline">一些帮助提示信息</span><input type="text" class="span8" value="我们为一些表单控件移除了默认的outline样式，并且对他们的:focus状态设置了box-shadow样式。"/><span class="help-inline">一些帮助提示信息</span><span class="help-block">一些帮助提示信息</span><br/>
+		<input type="text" value="这是一个input text框" class="uneditable-input" readonly="readOnly"/><span class="input-xlarge uneditable-input">是不是很像text框？这其实是一个span</span>
+		<div class="form-actions">
+			<button type="submit" class="btn">Test</button>
+			
+			<button type="submit" class="btn btn-small">Save changes</button>
+			<button type="button" class="btn btn-primary">Cancel</button>
+		</div>
+		<br/>
+		<div class="control-group info">
+			<label class="control-label">Input for warning</label><input type="text" /> <span class="control-label">A span</span>
+		</div>
+	</form>	
+	<form class="form-horizontal">
+		<div class="control-group error">
+			<label class="control-label" for="input1">Input for warning</label>
+			<div class="controls">
+				<input type="text" id="input1" class="span8" value="这个输入框和上面的那个，不是在同一个form里。可以看出2者之间的显示方式还是有差别的"/> <span class="help-inline">A span</span>
+			</div>
+		</div>
+		<span class="btn">Span风格按钮</span><a class="btn btn-primary" href="">href风格按钮</a>
+	</form>
+</body>
+</html>
