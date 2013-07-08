@@ -147,5 +147,160 @@
 			<input type="text"/>
 		</div>
 	</form>
+	<div style="float:none;border-style:solid;border-width:1px;height:30px;">
+		<div class="dropdown" style="margin-left:20px;float:left">
+			<!-- <a id="drop1" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a> -->
+			<span role="button" class="btn dropdown-toggle" data-toggle="dropdown">菜单1</span>
+			<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+				<li><a tabindex="-1" href="#">Action</a></li>
+				<li><a tabindex="-1" href="#">Another action</a></li>
+				<li><a tabindex="-1" href="#">Something else here</a></li>
+				<li class="divider"></li>
+				<li><a tabindex="-1" href="#">Separated link</a></li>
+			</ul>
+		</div>
+		<div class="dropdown" style="margin-left:2px;float:left;">
+			<span role="button" class="btn dropdown-toggle" data-toggle="dropdown">菜单disabled</span>
+			<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+				<li><a tabindex="-1" href="#">Action2</a></li>
+				<li class="disabled"><a disabled tabindex="-1" href="#">Another action2</a></li>
+				<li><a tabindex="-1" href="#">Something else here2</a></li>
+				<li class="divider"></li>
+				<li><a tabindex="-1" href="#">Separated link2</a></li>
+			</ul>
+		</div>
+		<div class="dropdown" style="margin-left:2px;float:left;">
+			<span role="button" class="btn dropdown-toggle" data-toggle="dropdown">子菜单</span>
+			<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+				<li><a tabindex="-1" href="#">Action3</a></li>
+				<li class="dropdown-submenu">
+					<a tablindex="-1" href="#">More options...</a>
+					<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+						<li><a tabindex="-1" href="#">Action3_1</a></li>
+						<li class="disabled"><a disabled tabindex="-1" href="#">Another action3_2</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div style="float:none;border-style:solid;border-width:1px;">
+		test
+	</div>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<form>
+	按钮 与 按钮组的区别
+		<button type="submit" class="btn">按钮1</button>
+		<button type="submit" class="btn">按钮2</button>
+		<br/>btn-group
+		<div class="btn-group">
+			<button type="submit" class="btn">按钮1</button>
+			<button type="submit" class="btn">按钮2</button>
+		</div>
+		<div class="btn-group">
+			<button type="submit" class="btn">按钮3</button>
+			<button type="submit" class="btn">按钮4</button>
+		</div>
+		<br/>btn-toolbar
+		<div class="btn-toolbar">
+			<div class="btn-group">
+				<button type="submit" class="btn">按钮1</button>
+				<button type="submit" class="btn">按钮2</button>
+			</div>
+			<div class="btn-group">
+				<button type="submit" class="btn">按钮3</button>
+				<button type="submit" class="btn">按钮4</button>
+			</div>
+		</div>
+	</form>
+	<h1>
+	<form>
+	    <div class="bs-docs-example">
+            <div class="btn-toolbar" style="margin: 0;">
+              <div class="btn-group">
+                <button class="btn dropdown-toggle" data-toggle="dropdown">Action <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div><!-- /btn-group -->
+              <div class="btn-group">
+                <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Action <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div><!-- /btn-group -->
+              <div class="btn-group">
+                <button class="btn btn-danger dropdown-toggle" data-toggle="dropdown">Danger <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div><!-- /btn-group -->
+              <div class="btn-group">
+                <button class="btn btn-warning dropdown-toggle" data-toggle="dropdown">Warning <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div><!-- /btn-group -->
+              <div class="btn-group">
+                <button class="btn btn-success dropdown-toggle" data-toggle="dropdown">Success <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div><!-- /btn-group -->
+              <div class="btn-group">
+                <button class="btn btn-info dropdown-toggle" data-toggle="dropdown">Info <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div><!-- /btn-group -->
+              <div class="btn-group">
+                <button class="btn btn-inverse dropdown-toggle" data-toggle="dropdown">Inverse <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div><!-- /btn-group -->
+            </div><!-- /btn-toolbar -->
+        </div>
+	</form>
+	<br/>Tab的例子
+	<ul class="nav nav-tabs">
+		<li class="active">
+		<a href="#">首页</a>
+		</li>
+		<li><a href="#">...</a></li>
+		<li><a href="#">...</a></li>
+    </ul>
 </body>
 </html>
